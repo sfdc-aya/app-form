@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Quicksand', sans-serif;
+    background-image: url(https://i.pinimg.com/originals/aa/2d/30/aa2d309cc09f6b3411474e8cbc8d9456.jpg);
+    background-color:  aqua;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.container{
+    background-color: rgba(37,26,16,0.7);
+    width: 60%;
+    display: block;
+    margin: auto;
+    min-height: 100vh;
+    padding: 40px;
+    color: white;
+}
+.data-block{
+    margin: 10px 40px;
+}
+.list{
+    display: block;
+    float: left;
+    width: 150px;
+}
+.checkbox{
+    list-style: none;
+}
+.gender-data{
+    display: inline;
+    margin-left: 30px;
+}
+input{
+  color:rgb(124,63,0)
+}
+button:hover{
+      background-color: rgb(124,63,0);
+}
+::placeholder{
+   color:rgb(124,63,0)
+}

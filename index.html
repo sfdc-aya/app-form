@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../Desktop/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>Application Form</h2>
+            <p>Note: this form is to be submitted in 30 days before the start date</p>
+        </header>
+        <form>
+            <h3>Personal Information</h3>
+            <div class="data-block">
+            <label for="name" class='list'>Name</label>
+            <input type="text" id="name" placeholder="Plase enter your name" required/></div>
+            
+            <div class="data-block">
+            <label for="address" class='list'>Address</label>
+            <input type="text" id="address" placeholder="Plase enter your address" required/>
+            </div>
+            
+            <div class="data-block">
+            <label for="email" class='list'>Email</label>
+            <input type="email" id="email" placeholder="Plase enter your email" required/>
+            </div>
+            
+            <div class="data-block">
+            <label for="grade" class='list'>Grade</label>
+            <input type="number" id="grade" placeholder="Plase enter your grade" required/>
+            </div>
+            <div class="data-block">
+                <label for="grade" class='list'>Phone</label>
+                <input type="tel" id="phone" placeholder="Plase enter your phone number" required/>
+                </div>
+           <h3>Gender</h3>
+                <div class="data-block">
+                <label for="female" >Female</label>
+                <input type="radio" name="gender" id="female" required/>
+                <label for="male" class="gender-data">Male</label>
+                <input type="radio" name="gender" id="male" required/>
+                <label for="other" class="gender-data">Other</label>
+                <input type="radio" name="gender" id="other" required/>
+                </div>
+                <div class="data-block">
+                <label for="date" class='list'>Date</label>
+                <input type="date"  id="date" required/>
+                </div>
+                <h3>Apply all that apply</h3>
+                <div class="data-block">
+                    <ul class="checkbox">
+                        <li>
+                            <input type="checkbox" id="jvs">
+                            <label for="jvs">I want to learn Javascript</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="react">
+                            <label for="react">I want to learn React</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="degree">
+                            <label for="degree">I have a degree in Engineering</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="occupation">
+                            <label for="occupation">I work full-time</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="location">
+                            <label for="location">I live in USA</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="motivation">
+                            <label for="motivation">I am motivated to find a job</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="data=block">
+                <label class='list'>Education Label</label>
+                <select>
+                    <option>Master's Degree</option>
+                    <option>High School</option>
+                    <option>Bacherol's Degree</option>
+                </select>
+                </div>
+                
+                <h3> Essay Section </h3>
+                <div class="data-block">
+                    <textarea rows="5" cols="17" placeholder="Tell us about yourself"></textarea>
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Cancel</button>
+                </div>
+        </form>
+    </div>
+</body>
+</html>
